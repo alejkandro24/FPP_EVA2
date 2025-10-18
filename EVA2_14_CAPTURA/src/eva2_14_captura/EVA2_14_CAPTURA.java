@@ -29,8 +29,15 @@ public class EVA2_14_CAPTURA {
         System.out.print("[" + califa[i] + "]");
        
     }
-        // TODO code application logic here
-    }
-    
+        int suma = 0;
+        // sumar todas las calificaciones 
+        for(int i = 0; i < califa.length; i++){
+        suma = suma + califa[i];
+        // SUMA += CALIFA[1]
+            }
+    double promedio = suma / (double)tama;//diviendo enteros
+     System.out.println("Promedio = " + promedio);
+     //????????????????????
 }
+    }
 }
